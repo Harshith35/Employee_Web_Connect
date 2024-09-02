@@ -1,0 +1,46 @@
+/* src/Pages/MusicPlayer.css */
+
+.music-player {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    background: rgba(255, 255, 255, 0.8);
+    border-radius: 12px;
+    max-width: 600px;
+    margin: auto;
+}
+
+.player-controls {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    padding: 10px;
+}
+
+.player-controls button {
+    background: none;
+    border: none;
+    font-size: 18px;
+    cursor: pointer;
+}
+
+.track-info {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.cover-image {
+    width: 100px;
+    height: 100px;
+    margin-bottom: 10px;
+    border-radius: 8px;
+}
+
+audio {
+    width: 100%;
+    margin: 10px 0;
+}

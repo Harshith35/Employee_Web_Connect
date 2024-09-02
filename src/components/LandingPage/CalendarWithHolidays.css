@@ -1,0 +1,25 @@
+/* src/LandingPage/CalendarWithHolidays.css */
+
+.calendar-container {
+    padding: 40px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    background-color: #f9f9f9;
+}
+
+.react-calendar {
+    width: 100%;
+    border: none;
+}
+
+.react-calendar__tile--active,
+.react-calendar__tile--now {
+    background: #007bff !important;
+    color: white !important;
+}
+
+.highlight {
+    background-color: green !important;
+    color: white !important;
+    border-radius: 0%;
+}
