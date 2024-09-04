@@ -1,6 +1,23 @@
-# Company Web Portal
+# Employee Connect Web Portal
 
-This web portal provides various features such as company news, HR policies, an interactive calendar, announcements, a music player, and more. It was developed as part of a company hackathon to showcase a dynamic and user-friendly interface for employees.
+## About
+
+Our web portal provides various features such as company news, HR policies, an interactive calendar, announcements, AI Chatbot, a music player, and more. It was developed as part of a company hackathon to showcase a dynamic and user-friendly interface for employees to connect with each other in order to grow together.
+
+An abstract overview of our portal:
+
+- Landing page 
+  - Announcements
+  - Calendar with company and user specific holidays
+  - Company News
+- HR Policies page
+- AI Chatbot
+- Register/Login page
+- User Dashboard page
+- HR Query page
+- Job Portal page
+- Social Media page
+- Music Player
 
 
 
@@ -66,7 +83,7 @@ This web portal provides various features such as company news, HR policies, an 
 
 
 
-**Notes**
+**Note**
 
 -   For demo purposes, local images and sample data are used.
 -   The project uses React, React Router for routing, and CSS for styling.
