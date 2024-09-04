@@ -1,62 +1,62 @@
-**Company Web Portal**
+# Company Web Portal
 
 This web portal provides various features such as company news, HR policies, an interactive calendar, announcements, a music player, and more. It was developed as part of a company hackathon to showcase a dynamic and user-friendly interface for employees.
 
 
 
-**Getting Started**
+## Tech Stack
 
-Follow these steps to set up and run the project locally:
-
-
- **Prerequisites**
-
-1\. Node.js and npm:  Ensure that you have Node.js and npm installed on your machine. You can download them from [nodejs.org](https://nodejs.org/).
-
-2\. Visual Studio Code (VS Code):  Install VS Code from [code.visualstudio.com](https://code.visualstudio.com/) for editing and running the project.
+- MongoDB
+- Express
+- React
+- Node.js
+- Flask
 
 
- **Setup Instructions**
+## Installation Guide
 
-1\. **Clone the Repository:**  Copy the project files from the source.
+ ### Prerequisites
+ 1\. `Node.js and npm:`  Ensure that you have Node.js and npm installed on your machine. You can download them from [nodejs.org](https://nodejs.org/en/download/package-manager).
+ 
+ 2\. `Visual Studio Code (VS Code):`  Install VS Code from [code.visualstudio.com](https://code.visualstudio.com/download) for editing and running the project.
 
-   git clone <repository-url>
+ 3\. `MongoDB and MongoDB Compass:` Ensure that you have MongoDB and MongoDB Compass installed on your machine. You can download them from [MongoDB](https://www.mongodb.com/docs/manual/installation/) & [MongoDB Compass](https://www.mongodb.com/docs/compass/current/install/)
 
-2\. **Navigate to the Project Directory**:
+<br />
 
-cd company-web-portal
+ ### Setup Instructions
 
-3\.  **Install Dependencies**:
+ 1\. **Download the files from Git Hub and open in VS Code**
+ 
+ 2\. **Navigate to the Project Directory**: `cd company-web-portal`
+ 
+ 3\.  **Install Dependencies**:
+- Frontend
+  - cd into the folder and execute `npm install`
+- Backend
+  - cd into the folder and execute `npm install`
+- Data Base
+  - create `EmployeeConnect` database from MongoDB Compass
+- Flask
+  - execute `pip install Flask` to install Flask
 
-npm install
+<br />
 
-4\. **Create a New React Project** (if not already done):
+ ## Run the project
+ 
+  1\.  **Run flask server** : `python chatbot.py`  
+       (if necessary, paste the screenshot)
+       
+  2\.  **Run backend server** : `npm start`
 
-npx create-react-app my-portal
+  3\.  **Run frontend server** : open new terminal and execute `npm run dev`
 
-cd my-portal
+  4\.  **Open MongoDB Compass and connect to default connection string** : Optional - to observe records in database <br />
+       (if necessary, paste the screenshot)
 
-5\. **Copy Project Files**:
-
-Copy the contents of the project folder (including src, public, package.json, etc.) into the new React project directory (my-portal).
-
-6\.  **Start the Development Server**:
-
-npm start
-
-7\. **Running the Project**:
-
-Open your browser and navigate to local host to see the application in action.
-
-
-**Common Commands**
-
--   **Start Development Server**:  npm start
--   **Run Tests**:  npm test
--   **Build for Production**:  npm run build
--   **Lint Project**:  npm run lint
-
-
+  5\.  **Running the Project** : Open your browser and navigate to local host to see the application in action
+  
+<br />
 
 **Troubleshooting**
 
